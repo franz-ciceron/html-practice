@@ -1,0 +1,103 @@
+
+
+body {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #023256;
+}
+
+
+
+.sidebar-imagebg{
+background: url(/assets/sidebar-bg.jpg) repeat-y;
+background-size: cover;
+width: 100%;
+height: 100%;
+position: relative;
+}
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 15vw;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  top:0;
+  left:0;
+}
+
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+
+.sidebar a.active-profile-picture {
+  background-color: #023256;
+  color: white;
+}
+
+
+.sidebar a.active-logout {
+  background-color: #023256;
+  color: white;
+}
+
+
+.sidebar a.active-collapse-icon {
+  background-color: #133C5A;
+  color: white;
+}
+
+
+.sidebar a:hover:not(.active-main-navigation) {
+  background-color: #023256;
+  color: white;
+}
+
+.content-separator{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.content{
+background-color: #094067;
+border: 2px solid #023256;
+width: 100%;
+color: white;
+}
+
+.sidebar-img{
+  margin-right: 15px;
+}
+
+
+.ulsidebar{
+list-style-type: none;
+padding: 0px;
+}
+
+
+
+.nav{
+box-sizing: border-box;
+border: 2px solid #023256;
+background-color: #094067;
+width: 100%;
+height: 200px;
+color: white;
+}
+
+
+
+/*    -----------------------------------------------MEDIA QUERY-------------------------------------------------------------------         */
+/*    -----------------------------------------------MEDIA QUERY-------------------------------------------------------------------         */
